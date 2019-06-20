@@ -32,7 +32,7 @@ cd phpservermonitor/
 
 # Build Docker Image
 docker build --no-cache \
-  --tag "phpservermonitor:3.4.0" \
+  --tag "phpservermonitor:3.3.2" \
   --tag "phpservermonitor:latest" \
   --file Dockerfile .
 ```
