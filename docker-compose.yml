@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       - TIME_ZONE='Asia/Tokyo'
-      - PSM_REFRESH_RATE_SECONDS=15
+      - PSM_REFRESH_RATE_SECONDS=3600
       - PSM_AUTO_CONFIGURE=true
       - MYSQL_HOST=database
       - MYSQL_USER=phpservermonitor
