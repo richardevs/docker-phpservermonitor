@@ -6,7 +6,7 @@ services:
     container_name: phpservermonitor
     restart: always
     environment:
-      - TIME_ZONE='America/Chicago'
+      - TIME_ZONE='Asia/Tokyo'
       - PSM_REFRESH_RATE_SECONDS=15
       - PSM_AUTO_CONFIGURE=true
       - MYSQL_HOST=database
