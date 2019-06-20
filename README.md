@@ -30,11 +30,13 @@ cd "/tmp/php-server-monitor"
 git clone https://github.com/phpservermon/phpservermon.git phpservermonitor
 cd phpservermonitor/
 
+cp ~/docker-phpservermonitor/docker-entrypoint.sh .
+
 # Build Docker Image
 docker build --no-cache \
   --tag "phpservermonitor:3.3.2" \
   --tag "phpservermonitor:latest" \
-  --file Dockerfile .
+  --file ~/docker-phpservermonitor/Dockerfile .
 ```
 
 
