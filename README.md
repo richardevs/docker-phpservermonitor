@@ -1,7 +1,7 @@
 
-# PHPServerMonitor in Docker (Last version 3.4.0)
+# PHPServerMonitor in Docker (Last version 3.3.2)
 
-### Last update : 2019/06/20 . Created repository with version 3.4.0
+### Last update : 2019/06/20 . Created repository with version 3.3.2
 ### Small modification by richardevs for personal use, forked from AustinSaintAubin/docker-phpservermonitor
 
 ### PHPServerMonitor
