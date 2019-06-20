@@ -31,7 +31,7 @@ ENV MYSQL_DATABASE phpservermonitor
 ENV MYSQL_DATABASE_PREFIX psm_
 
 # Time Zone
-ENV PHP_TIME_ZONE 'America/Chicago'
+ENV PHP_TIME_ZONE 'Asia/Tokyo'
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 RUN sed -i 's/;date.timezone =/date.timezone = "${PHP_TIME_ZONE}"/g' "$PHP_INI_DIR/php.ini"
 # RUN php -i | grep -i error
