@@ -1,8 +1,8 @@
 
-# PHPServerMonitor in Docker (Last version 3.3.2)
+# PHPServerMonitor in Docker (Last version 3.4.0)
 
-### Last update : 2019/03/11 . Created repository with version 3.3.2
-#### Please open issues on [github](https://github.com/Quentinvarquet/docker-phpservermonitor/issues)
+### Last update : 2019/06/20 . Created repository with version 3.4.0
+### Small modification by richardevs for personal use, forked from AustinSaintAubin/docker-phpservermonitor
 
 ### PHPServerMonitor
 
@@ -19,9 +19,6 @@ More information :
 
 ### Information & Build
 
-This is the official repository for PHPServerMonitor
-It will be updated every time there is a new version of PHPServerMonitor available, or you can build yourself with.
-
 ```
 ## Build and Deploy PHPServerMonitor with Docker
 
@@ -30,12 +27,12 @@ mkdir -p "/tmp/php-server-monitor"
 cd "/tmp/php-server-monitor"
 
 # Clone Git Repo
-git clone https://github.com/phpservermon/phpservermonitor.git phpservermonitor
+git clone https://github.com/phpservermon/phpservermon.git phpservermonitor
 cd phpservermonitor/
 
 # Build Docker Image
 docker build --no-cache \
-  --tag "phpservermonitor:3.3.2" \
+  --tag "phpservermonitor:3.4.0" \
   --tag "phpservermonitor:latest" \
   --file Dockerfile .
 ```
