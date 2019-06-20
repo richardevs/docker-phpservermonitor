@@ -17,7 +17,7 @@ services:
     ports:
       - 8080:80
     dns:
-      - 192.168.3.8
+      - 119.29.29.29
     links:
       - "db:database"
     volumes:
